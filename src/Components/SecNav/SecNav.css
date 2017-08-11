@@ -1,0 +1,41 @@
+.SecNav {
+  text-align: center;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.SecNav .pt-fixed {
+	width: 20%;
+}
+.SecNav .pt-button {
+	color: #006666 !important;
+}
+.no-radius {
+	border-radius: 0px !important;
+}
+.SecNav .pt-active {
+	background-color: #000000 !important;
+	color: #ffffff !important;
+}
+.SecNav .pt-fill {
+	cursor: auto;
+	background: linear-gradient(to bottom, #ffffff, rgba(255, 255, 255, 0)) left no-repeat, center no-repeat #f5f8fa !important;
+}
+.SecNav .SecNavMob h4 {
+	background-color: #006666;
+	color: #ffffff !important;
+	height: 40px;
+	margin-bottom: 0px;
+    padding-top: 10px;
+}
+.SecNavMob .pt-icon-menu {
+	float: left;
+	padding-left: 15px;
+}
+.SecNav .pt-icon-caret-down {
+	top: 19px;
+    position: absolute;
+    font-size: 30px;
+    left: 42%;
+    color: #000000 !important;
+}

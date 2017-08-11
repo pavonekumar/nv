@@ -1,0 +1,36 @@
+.App {
+ 
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.App-header {
+  height: 150px;
+  padding: 20px;
+}
+@media (max-width: 940px) {
+.MainNav a {padding: 0px !important; font-size: 12px !important;}
+}
+@media (min-width: 941px) {
+.MainNav .pt-icon-caret-up, .MainNav .pt-icon-caret-down {
+	font-size: 20px !important;
+}
+}
+@media (max-width: 940px) {
+.MainNav .pt-icon-caret-up, .MainNav .pt-icon-caret-down {
+	font-size: 12px !important;
+	margin-left: 0px !important;
+}
+.SecNav .pt-button {
+	font-size: 12px !important;
+	padding: 0px !important;
+}
+}
+@media (max-width: 575px) {
+.MainNav {display: none !important;}
+.SecNav .SecMenu {display: none !important;}
+.SearchSection {margin: 0px 10px !important;}
+.SearchLocation label {width: 47% !important;}
+}
+@media (min-width: 576px) {
+.SecNav .SecNavMob {display: none !important;}
+}

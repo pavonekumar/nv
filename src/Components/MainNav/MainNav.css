@@ -1,0 +1,15 @@
+.MainNav {
+  text-align: center;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  color: #006666;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.no-radius {
+	border-radius: 0px !important;
+}
+
+.MainNav .pt-button{
+	background: linear-gradient(to bottom, rgb(51, 133, 147), rgb(29, 107, 127)) left no-repeat, center no-repeat #006666 !important;
+}

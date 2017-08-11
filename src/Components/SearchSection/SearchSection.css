@@ -1,0 +1,47 @@
+.SearchSection {
+  text-align: center;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  margin: 0% 15%;
+}
+.SearchSection h5 {
+	text-align: left;
+	font-weight: bold;
+}
+.SearchSection button {
+	width: 75px;
+	background: linear-gradient(to bottom, rgb(51, 133, 147), rgb(29, 107, 127)) left no-repeat, center no-repeat #006666 !important;
+    font-weight: bold;
+}
+.SearchLocation {
+	border: 1px solid #ccc;
+}
+.SearchLocation label {
+	margin-top: 20px;
+	width: 28%;
+}
+.LocationFiter{
+	text-align: left;
+	padding: 10px 0px 20px 20px;
+}
+.DataSection {
+	text-align: left !important;
+}
+.DataSection h4{
+	padding-left: 40px;
+}
+.SearchSection table {
+	width: 100%;
+	border: 1px solid #ccc;
+}
+.show{
+	display:block !important;
+}
+.hide{
+	display:none;
+}
+.noRecords{
+	text-align: center;
+}
+.SearchSection th {
+	width: 22.4% !important;
+}
